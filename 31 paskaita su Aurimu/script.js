@@ -1,74 +1,15 @@
-// function sunkusisSestadienis(parametras) {
-
-//     return parametras - 1;
-// }
-
-
-// const kibiras = sunkusisSestadienis(6);
-
-
-
-// console.log(kibiras);
-
-// // console.log(sunkusisSestadienis());
-
-// function vardoPavardesGeneratorius(name, surname) {
-//     return name + ' ' + surname;
-// }
-
-// const vardas = 'aurimas';
-// const pavarde = 'stecenka';
-
-// const egidijausVardas = 'egidijus';
-// const egidijausPavarde = 'kivilis';
-
-// const manoPilnasVardas = vardoPavardesGeneratorius('aurimas', 'stecenka');
-// const egidijausPilnasVardas = vardoPavardesGeneratorius('egidijus', 'kivilis');
-
-// console.log
-
-// function min(a, b) {
-//     console.log('veikia')
-
-//     if (a < b) {
-//         return a;
-//     }
-//     return b;
-
-
-// }
-
-// let number = min(1, 1);
-// console.log(number);
-
 /*
-#1
-Deklaruoti funkcija sayHi:
-Ji turi kviesti "alert" su pasisveikinimu;
-pakvieisti funkcija;
- */
+#4
+deklaruoti funkcija, kuri priima ir sudeda du skaicius;
+Funkcija atsakyma grazina;
 
-/*
-#2
-papildyti koda:
-    -priimtu parametra pavadinimu "word";
-    - pakviesti funkcija su sugalvotu zodziu;
-    - "alert" turi buti kvieciama su parametru;
- */
-
-/*
-#3
-papildyti koda:
-    - funkcija priima viena parametra "name";
-    - funkcija turi TIK grazinti pasisveikinima 
-    sujungta su duotu vardu
-    -pakviesti funkcija viena kartu susavo vardu;
-    - is funkcijos kvietimo gauta verte "alertinti";
+Is pakviestos funkcijos grazinta atsakyma mes alertinam;
 */
 
-function sayHi(name) {
-    return 'Hello ' + name;
+function suma(a, b) {
+    return a + b;
 }
 
-const atsakymas = sayHi('Raimondas');
-alert(atsakymas);
+const rezultatas = suma(7, 12);
+alert(rezultatas);
+// alert(suma(1, 2));
