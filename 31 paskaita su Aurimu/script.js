@@ -56,8 +56,19 @@ papildyti koda:
     - "alert" turi buti kvieciama su parametru;
  */
 
-function sayHi(word) {
-    alert(word);
+/*
+#3
+papildyti koda:
+    - funkcija priima viena parametra "name";
+    - funkcija turi TIK grazinti pasisveikinima 
+    sujungta su duotu vardu
+    -pakviesti funkcija viena kartu susavo vardu;
+    - is funkcijos kvietimo gauta verte "alertinti";
+*/
+
+function sayHi(name) {
+    return 'Hello ' + name;
 }
 
-sayHi('hello');
+const atsakymas = sayHi('Raimondas');
+alert(atsakymas);
