@@ -27,16 +27,37 @@
 
 // console.log
 
-function min(a, b) {
-    console.log('veikia')
+// function min(a, b) {
+//     console.log('veikia')
 
-    if (a < b) {
-        return a;
-    }
-    return b;
+//     if (a < b) {
+//         return a;
+//     }
+//     return b;
 
 
+// }
+
+// let number = min(1, 1);
+// console.log(number);
+
+/*
+#1
+Deklaruoti funkcija sayHi:
+Ji turi kviesti "alert" su pasisveikinimu;
+pakvieisti funkcija;
+ */
+
+/*
+#2
+papildyti koda:
+    -priimtu parametra pavadinimu "word";
+    - pakviesti funkcija su sugalvotu zodziu;
+    - "alert" turi buti kvieciama su parametru;
+ */
+
+function sayHi(word) {
+    alert(word);
 }
 
-let number = min(1, 1);
-console.log(number);
+sayHi('hello');
